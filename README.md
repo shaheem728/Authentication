@@ -1,5 +1,6 @@
 # Authentication
 React And Django Secure Authentication
+# Backend(Django)
 <h3>intial steps </h3>
 <ol>
     <li>pip install django</li>
@@ -46,6 +47,14 @@ React And Django Secure Authentication
     ...,
 ]
 </pre>
+<pre>
+    CORS_ALLOWED_ORIGINS = [
+    
+    "http://localhost:3000",
+   
+]
+CORS_ALLOW_CREDENTIALS = True
+</pre>
 <p>python manage.py migrate</p>
 <p>python manage.py createsuperuser</p>
 
@@ -62,3 +71,13 @@ urlpatterns = [
     ...
 ]
 </pre>
+
+# Frontend(React)
+<h3>intial steps </h3>
+<o>
+    <li>npx create-react-app frontend</li>
+    <li>cd frontend</li>
+    <li>npm install axios</li>
+    <li>npm install react-router-dom</li>
+    <li>npm i @chakra-ui/react @emotion/react = (chakra ui for react)</li>
+</o>

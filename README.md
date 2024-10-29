@@ -22,7 +22,8 @@ React And Django Secure Authentication
 <pre>
     INSTALLED_APPS = [
     ...,
-    "corsheaders",
+    'rest_framework',
+    'corsheaders',
      'rest_framework_simplejwt',
      'base',
     ...,

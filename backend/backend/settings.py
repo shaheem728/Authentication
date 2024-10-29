@@ -54,6 +54,12 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+CORS_ALLOWED_ORIGINS = [
+    
+    "http://localhost:3000",
+   
+]
+CORS_ALLOW_CREDENTIALS = True
  # 'rest_framework_simplejwt.authentication.JWTAuthentication',
 
 REST_FRAMEWORK = {

@@ -80,5 +80,5 @@ urlpatterns = [
     <li>cd frontend</li>
     <li>npm install axios</li>
     <li>npm install react-router-dom</li>
-    <li>npm i @chakra-ui/react @emotion/react = (chakra ui for react)</li>
+    <li>npm i @chakra-ui/react</li>
 </o>
